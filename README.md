@@ -82,6 +82,12 @@ bash scripts/launch/launch_pipeline.sh cometbft|cometbft/cometbft|Go|Tendermint 
 
 See [here](https://github.com/specula-org/Specula/blob/main/scripts/launch/launch_pipeline.sh#L19) for more CLI options (e.g. specifying which agent to use)
 
+## Copilot
+
+```
+bash scripts/launch/launch_pipeline.sh --agent=copilot "myproject|owner/repo|Go|Raft"
+```
+
 **Individual phases:**
 
 ```bash
